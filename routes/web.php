@@ -16,6 +16,9 @@ Route::get('/', function () {
 });
 
 
-Route::get('hello/{name}',function($name) {
-   echo "Hello!".$name;
-});
+
+
+
+Route::get('home','HomeController@home');
+
+
